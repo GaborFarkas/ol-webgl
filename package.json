@@ -1,0 +1,45 @@
+{
+  "name": "ol-webgl",
+  "version": "0.0.1",
+  "description": "WebGL vector renderer plugin for the web mapping library OpenLayers",
+  "main": "index.js",
+  "scripts": {
+    "karma": "karma start test/karma.conf.js",
+    "test": "npm run karma -- --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GaborFarkas/ol-webgl.git"
+  },
+  "keywords": [
+    "ol",
+    "openlayers",
+    "vector",
+    "webgl"
+  ],
+  "author": "Gábor Farkas <gfarkas@gamma.ttk.pte.hu>",
+  "peerDependencies": {
+    "ol": "^5.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.9.0",
+    "eslint-config-openlayers": "^11.0.0",
+    "jasmine": "^3.3.0",
+    "karma": "^3.1.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-spec-reporter": "0.0.32",
+    "karma-webpack": "^3.0.5",
+    "ol": "^5.3.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GaborFarkas/ol-webgl/issues"
+  },
+  "homepage": "https://github.com/GaborFarkas/ol-webgl#readme"
+}
